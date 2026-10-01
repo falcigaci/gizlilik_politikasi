@@ -55,7 +55,8 @@
     <hr>
 
     <h3>1. 📋 Toplanan Veriler</h3>
-    <p>Uygulamamız, fal analizi yapabilmek için yüklediğiniz fotoğrafları geçici olarak işler. <strong>Bu fotoğraflar sunucularımızda kalıcı olarak depolanmaz. Sadece paylaşılan yazılı fal analiz metinleri Firebase Firestore altyapısı üzerinde güvenli bir şekilde depolanır. </strong> Uygulamamız, temel işlevlerini yerine getirebilmek, size daha iyi bir deneyim sunabilmek ve hizmetlerimizi sürdürebilmek için belirli üçüncü taraf hizmet sağlayıcılarını kullanmaktadır.</p>
+    <p>Uygulamamız, fal analizi yapabilmek için yüklediğiniz fotoğrafları anlık olarak (Google Gemini API) sunucularına gönderir. <strong>Bu fotoğraflar sunucularımızda kalıcı olarak depolanmaz.</p>
+    <p>Tamamlanan yazılı fal analiz metinleri, uygulama içi satın alma geçmişiniz ve Falcoin bakiyeniz, hizmetlerimizin sürdürülebirliği ve kullanıcı deneyiminin korunması amacıyla güvenli bir şekilde (Google Firebase Firestore) altyapısı üzerinde depolanmaktadır.</p> </strong> Uygulamamız, temel işlevlerini yerine getirebilmek, size daha iyi bir deneyim sunabilmek ve hizmetlerimizi sürdürebilmek için belirli üçüncü taraf hizmet sağlayıcılarını kullanmaktadır.</p>
 
     <hr>
 
@@ -63,7 +64,7 @@
     <p>Uygulamamız bünyesinde aşağıdaki servisler kullanılmaktadır:</p>
     <ul>
         <li><strong>Google Gemini API:</strong> Fal analizlerinin ve yorumlarının yapılması için kullanılmaktadır.</li>
-        <li><strong>Google Firebase:</strong> Cihazınıza özel anlık bildirimler (push notification) göndermek için kullanılır.</li>
+        <li><strong>Google Firebase:</strong> Kullanıcı verilerinin (Fal metinleri, bakiye vb.) güvenli bir şekilde depolanması ve cihazınıza özel anlık bildirimler (push notification) göndermek için kullanılır.</li>
         <li><strong>Google Admob:</strong> Uygulama içinde ilgi alanlarınıza uygun kişiselleştirilmiş veya genel reklamlar göstermek ve reklam performansını ölçmek için kullanılır.</li>
         <li><strong>Google Play Faturalandırma (Uygulama İçi Satın Almalar):</strong> Satın aldığınız dijital ürünleri veya premium özellikleri (ek haklar, abonelikler vb.) hesabınıza tanımlamak ve doğrulamak için kullanılır.</li>
     </ul>
